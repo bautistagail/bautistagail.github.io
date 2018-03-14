@@ -1,118 +1,12 @@
-.colorBar{
-  width:100%;
-   background-image: -webkit-linear-gradient(left, 
-    orange,
-    orangered 25%,
-    skyblue 25%,
-    deepskyblue 50%,
-    firebrick 50%,
-    firebrick 75%,
-    green 75%);
-  background-image: -moz-linear-gradient(left, 
-    orange,
-    orangered 25%,
-    skyblue 25%,
-    deepskyblue 50%,
-    firebrick 50%,
-    firebrick 75%,
-    green 75%);
-  background-image: -ms-linear-gradient(left, 
-    orange,
-    orangered 25%,
-    skyblue 25%,
-    deepskyblue 50%,
-    firebrick 50%,
-    firebrick 75%,
-    green 75%);
-  background-image: linear-gradient(to right, 
-    orange,
-    orangered 25%,
-    skyblue 25%,
-    deepskyblue 50%,
-    firebrick 50%,
-    firebrick 75%,
-    green 75%);
-  height:4px;
+.background {
+  background-image: url(C:\Users\Rafael\Desktop\7.jpg) 
+    height: 100px;
+weight: 100px;
 }
 
-#home{
-  height:0px;
-}
-
-.name{
-  font-family: 'Lato', sans-serif;
-  font-size:90px;
-  font-weight:bold;
-  width:950px;
-  height:140px;
-  text-align:center;
-  margin: 0 auto;
-  position: relative;  
-  top: 150px;
-}
-
-.name span{
-  color:orangered;
-}
-
-.tag{
-  font-family: 'Lato', sans-serif;
-  font-size:20px;
-  font-weight:100;
-  text-transform:uppercase;
-  margin:0px;
-  padding:0px;
-}
-
-.few{
- font-family: 'Lato', sans-serif;
-font-size: 20px;
-text-transform: uppercase;
-margin: 13px;
-padding: 0px;
-}
-
-#particles-js{
-  height:100%;
-background:linear-gradient(45deg,#FF9000,#13C1FC);
-  z-index:1;
-
-  
-}
-
-.nav{
-  height:80px;
-  
-  background:rgba(186, 186, 186, 0.2);
-  z-index:20;
-  text-transform:uppercase;
-  
-}
-
-.nav ul li{
-  display:inline-block;
-  margin-left:30px;
-}
-
-.nav ul{
-  font-family: 'Lato', sans-serif;
-  margin:0px;
-  padding:0px;
-  font-size:15px;
-  font-weight:400;
-  text-align:center;
-  padding-top:30px;
-}
-
-.nav ul li:hover{
-  
-  padding-bottom:5px;
-  border-bottom:3px solid rgb(68, 90, 78) ;
-  
-}
-
-.clear{
-  clear: both;
+.text {
+  text-font: Bernard MT Condensed;
+  font-size: 14px; 
 }
 
 
